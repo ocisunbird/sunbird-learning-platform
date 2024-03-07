@@ -355,7 +355,8 @@ master_category_validation_enabled: "Yes"
 
 ### content-publish related vars
 content_stream_enabled: true
-content_artifact_size_for_online: 209715200
+#content_artifact_size_for_online: 209715200
+content_artifact_size_for_online: 524288000
 
 ### qrcode-image-generator related vars
 qrcode_image_generator_consumer_parallelism: 1
