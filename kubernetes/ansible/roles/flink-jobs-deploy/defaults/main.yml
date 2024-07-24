@@ -184,8 +184,8 @@ flink_job_names:
   asset-enrichment:
     job_class_name: 'org.sunbird.job.assetenricment.task.AssetEnrichmentStreamTask'
     replica: 1
-    jobmanager_memory: 1024m
-    taskmanager_memory: 1024m
+    jobmanager_memory: 500m
+    taskmanager_memory: 500m
     taskslots: 1
     cpu_requests: 0.3
   audit-history-indexer:
